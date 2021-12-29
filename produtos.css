@@ -9,7 +9,7 @@ header {
 
 .container {
   position: relative;
-  width: 750px;
+  width: 850px;
   margin: 0 auto;
 }
 
@@ -33,7 +33,58 @@ header {
 }
 
 .navbar a:hover {
-  color: yellow;
+  color: #c78c19;
   cursor: pointer;
   text-decoration: underline;
+}
+
+.produtos {
+  width: 850px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li {
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 30%;
+  margin: 0 1.5%;
+  padding: 20px 10px;
+  font-size: 12px;
+}
+
+.produtos li:hover {
+  cursor: pointer;
+  border: 2px solid #c78c19;
+}
+
+.produtos li:hover h2 {
+  font-size: 22px;
+}
+
+.produtos li:active {
+  border-color: #088c19;
+}
+
+.produtos h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.produtos img {
+  width: 120px;
+}
+
+.produto-descricao {
+  font-size: 12px;
+}
+
+.produto-preco {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px 0 0 0;
 }
