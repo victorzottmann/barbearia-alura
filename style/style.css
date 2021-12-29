@@ -97,10 +97,36 @@ footer {
   text-align: center;
   color: white;
   font-size: 10px;
-  background: url("./imagens/bg.jpg");
+  background: url("../imagens/bg.jpg");
   padding: 10px 0;
 }
 
 footer img {
   width: 50px;
+}
+
+main {
+  width: 850px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label,
+form p {
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 10px 25px;
+  width: 24%;
+}
+
+#checkbox {
+  margin: 15px 0;
 }
