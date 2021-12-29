@@ -1,0 +1,39 @@
+header {
+  background-color: #bbb;
+  padding: 20px 0;  
+}
+
+.logo {
+  width: 100px;
+}
+
+.container {
+  position: relative;
+  width: 750px;
+  margin: 0 auto;
+}
+
+.navbar {
+  position: absolute;
+  top: 65.5px;
+  right: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 15px;
+}
+
+.navbar a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: yellow;
+  cursor: pointer;
+  text-decoration: underline;
+}
