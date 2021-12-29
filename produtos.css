@@ -4,7 +4,7 @@ header {
 }
 
 .logo {
-  width: 100px;
+  width: 80px;
 }
 
 .container {
@@ -15,7 +15,7 @@ header {
 
 .navbar {
   position: absolute;
-  top: 65.5px;
+  top: 52px;
   right: 0;
 }
 
@@ -36,6 +36,10 @@ header {
   color: #c78c19;
   cursor: pointer;
   text-decoration: underline;
+}
+
+.conteudo-principal {
+  height: 70vh;
 }
 
 .produtos {
@@ -87,4 +91,16 @@ header {
   font-weight: bold;
   font-size: 16px;
   margin: 10px 0 0 0;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  background: url("./imagens/bg.jpg");
+  padding: 10px 0;
+}
+
+footer img {
+  width: 50px;
 }
