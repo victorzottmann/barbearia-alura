@@ -9,7 +9,7 @@ li {
 
 header {
   background-color: #bbb;
-  padding: 20px 0;  
+  padding: 10px 0;  
 }
 
 .logo {
@@ -38,7 +38,7 @@ header {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1em;
 }
 
 .navbar a:hover {
@@ -106,13 +106,24 @@ header {
 
 .conteudo-beneficios {
   width: 540px;
-  margin: 0 0 0 240px;
+  margin: 0 0 0 235px;
 }
 
 .lista-beneficios {
   width: 40%;
   display: inline-block;
   vertical-align: top;
+}
+
+.imagem-beneficios {
+  width: 50%;
+  opacity: 1;
+  transition: 300ms;
+  box-shadow: 10px 10px 30px #000;
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.3;
 }
 
 .itens {
@@ -127,9 +138,6 @@ header {
   content: "★ ";
 }
 
-.imagem-beneficios {
-  width: 50%;
-}
 
 .video {
   width: 460px;
@@ -258,4 +266,50 @@ footer {
 
 footer img {
   width: 50px;
+}
+
+/*********************************************************/
+/*********************************************************/
+
+@media screen and (max-width: 480px) {
+  .container, 
+  .principal, 
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .navbar {
+    position: static;
+    margin-left: 65px;
+  }
+
+  .principal,
+  .lista-beneficios {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .mapa {
+    padding-top: 0;
+  }
+
+  .beneficios {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .conteudo-beneficios, .lista-beneficios, .imagem-beneficios {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .lista-beneficios {
+    margin-bottom: 20px;
+  }
 }
